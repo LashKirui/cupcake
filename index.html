@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magically Delicious Cupcakes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #ffcc00;
+            text-align: center;
+            padding: 40px 0;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .description {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .cupcake-images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .cupcake-images img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .cupcake-images img:hover {
+            transform: scale(1.1);
+        }
+
+        .contact-details {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Magically Delicious Cupcakes</h1>
+    </header>
+
+    <div class="container">
+        <div class="description">
+            <p>Welcome to Magically Delicious, where we create enchanting cupcakes that delight your taste buds and spark your imagination. Our cupcakes are baked with love and a touch of magic to make every bite a truly enchanting experience.</p>
+        </div>
+
+        <div class="cupcake-images">
+            <img src="images/image1.jpg" alt="Cupcake 1">
+            <img src="images/image2.jpg" alt="Cupcake 2">
+            <img src="images/image3.jpg" alt="Cupcake 3">
+        </div>
+
+        <div class="contact-details">
+            <p>Contact us:</p>
+            <p>Lash K</p>
+            <p>Email: <a href="mailto:Elitelash@.com">Elitelash@.com</a></p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2023 Magically Delicious Cupcakes
+    </footer>
+</body>
+</html>
